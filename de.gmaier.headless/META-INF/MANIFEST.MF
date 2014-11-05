@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Headless
+Bundle-SymbolicName: de.gmaier.headless;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: de.gmaier.headless.Activator
+Require-Bundle: org.eclipse.core.runtime,
+ org.slf4j.log4j12;bundle-version="1.0.0",
+ org.apache.jena;bundle-version="2.12.1"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy
