@@ -27,9 +27,7 @@
    <plugins>
       <plugin id="de.gmaier.headless"/>
       <plugin id="javax.xml"/>
-      <plugin id="org.apache.jackson"/>
       <plugin id="org.apache.jena"/>
-      <plugin id="org.apache.jsonld"/>
       <plugin id="org.apache.log4j"/>
       <plugin id="org.apache.log4j.config" fragment="true"/>
       <plugin id="org.apache.xerces"/>
